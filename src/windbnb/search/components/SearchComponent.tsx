@@ -3,7 +3,7 @@ import { Box, Stack, useTheme, Divider, Typography, Button
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 import useWindowsResize from '../../../hooks/useWindowsResize';
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { FilterComponent, SearchContext } from '..';
 
 export const SearchComponent = () => {
@@ -26,6 +26,13 @@ export const SearchComponent = () => {
         setFilterSelected('')
         searchByFilters()
     }
+
+    useEffect(() => {
+      if (!open){
+        setFilterSelected('')
+      }
+    }, [open])
+    
 
   return (
     <Box sx={{
