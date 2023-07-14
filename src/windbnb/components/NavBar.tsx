@@ -25,7 +25,7 @@ export const NavBar = () => {
         margin= {'0 '+( width > 900 ? '90px' : '10px' )}
         {...( width > 900 ? null :{ height: '100%' } )}
       >
-        {!open && <img src='../public/logo.png'/>}
+        {!open && <img src='./logo.png' alt='image' />}
         <SearchComponent />
       </Stack>
     </Box>
