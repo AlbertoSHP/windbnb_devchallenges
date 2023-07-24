@@ -40,9 +40,9 @@
 
 This is my first project from devchallenge.io platform and I've been more comfortable than expected.
 
-I focused on match the design as much as possible with not too many details, transitions and so on, but I'd like to improve it in that way.
+I focused on match the design as much as possible with not too many details, transitions and so on, but I'd like to improve it in that way someday.
 
-I took me a bit of effort to achieve a full responsive design :)
+It took me a bit of effort to achieve a full responsive design :)
 
 The demo is fully working but since there is no design to remove the filters I didn't apply any workaround, but any help is welcome!
 
